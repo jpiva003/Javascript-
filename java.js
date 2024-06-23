@@ -28,4 +28,9 @@ function returnString() {
     return "scissors";
   }
 }
-console.log(returnString());
+let computerChoice = returnString();
+console.log(computerChoice);
+// function to take in playerChoice
+let playerAnswer = window.prompt(`Enter a string "rock" "paper" or "scissors"`);
+console.log(playerAnswer);
+console.log(playRound());
