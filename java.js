@@ -32,5 +32,6 @@ let computerChoice = returnString();
 console.log(computerChoice);
 // function to take in playerChoice
 let playerAnswer = window.prompt(`Enter a string "rock" "paper" or "scissors"`);
+playerAnswer = playerAnswer.toLowerCase();
 console.log(playerAnswer);
 console.log(playRound());
