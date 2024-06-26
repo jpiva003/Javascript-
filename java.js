@@ -31,7 +31,12 @@ function returnString() {
 let computerChoice = returnString();
 console.log(computerChoice);
 // function to take in playerChoice
-let playerAnswer = window.prompt(`Enter a string "rock" "paper" or "scissors"`);
+let playerAnswer = window.prompt(
+  `This game will be played from the console. Enter a string "rock" "paper" or "scissors"`
+);
 playerAnswer = playerAnswer.toLowerCase();
 console.log(playerAnswer);
 console.log(playRound());
+// Function to tally up score
+let playerScore = 0;
+let computerScore = 0;
